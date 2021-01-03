@@ -1,0 +1,36 @@
+body {
+    margin: 0 auto;
+}
+/* nav bar design */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #9597A5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.logo {
+    padding: 14px 16px;
+}
+
+.banner {
+    /* background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 7%, #2BD2FF 53%, #2BFF88 90%); */
+    height: 736px;
+    background-image: url(images/banner-desktop.jpg);   
+}
+  
+  

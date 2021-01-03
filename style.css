@@ -1,7 +1,11 @@
-body {
+ body {
     margin: 0 auto;
 }
-/* nav bar design */
+
+
+ .navbar {
+  height: 20px;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -16,7 +20,7 @@ ul {
   
   li a {
     display: block;
-    color: #9597A5;
+    color: #2D314D;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -27,10 +31,36 @@ ul {
 }
 
 .banner {
-    /* background-color: #FA8BFF;
-    background-image: linear-gradient(45deg, #FA8BFF 7%, #2BD2FF 53%, #2BFF88 90%); */
     height: 736px;
-    background-image: url(images/banner-desktop.jpg);   
+    background-image: linear-gradient(to bottom right, rgba(51,	211,	94, 0.502), rgba(42,	182,	217, 0.502)), url(images/banner-desktop.jpg);
 }
-  
-  
+
+.banner h1 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+
+.btn {
+  font-size: 20px;
+  position: relative;
+  top: 200px;
+  left: 660px;
+  padding: 20px;
+  border-radius: 22px;
+  background: #2D314D;
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+
+ /* this is for mobile */
+@media only screen and (max-width: 768px) {
+
+  [class*="col1"] {
+    width: 100%;
+  }
+
+} 

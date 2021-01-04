@@ -1,66 +1,49 @@
- body {
-    margin: 0 auto;
-}
-
-
- .navbar {
-  height: 20px;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    color: #2D314D;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-.logo {
-    padding: 14px 16px;
-}
-
-.banner {
-    height: 736px;
-    background-image: linear-gradient(to bottom right, rgba(51,	211,	94, 0.502), rgba(42,	182,	217, 0.502)), url(images/banner-desktop.jpg);
-}
-
-.banner h1 {
-  font-size: 60px;
+.jumbotron {
+  background-image: url();
+  height: 736px;
+  background-image: linear-gradient(rgba(51,211,94,0.4),rgba(42, 182, 217,0.4)), url(images/banner-desktop.jpg);
   color: white;
   text-align: center;
-  position: relative;
-  top: 200px;
 }
 
-.btn {
-  font-size: 20px;
-  position: relative;
-  top: 200px;
-  left: 660px;
-  padding: 20px;
-  border-radius: 22px;
-  background: #2D314D;
-  color: white;
-  border: none;
-  text-decoration: none;
+.jumbotron h1 {
+  font-size: 60px;
+  font-weight: bold;
 }
 
- /* this is for mobile */
-@media only screen and (max-width: 768px) {
+.jumbotron h1,p {
+  position: relative;
+  top: 170px;
+}
 
-  [class*="col1"] {
-    width: 100%;
-  }
+.grey-text {
+  position: relative;
+  top: -10px;
+}
 
-} 
+.fa-file-code {
+  color: #30C88F;
+}
+
+.fa-search {
+  color: #30C88F;
+}
+
+.fa-bullhorn {
+  color: #30C88F;
+}
+
+.card-deck {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.Portfolio {
+  text-align: center;
+}
+
+.card-text {
+  position: relative;
+  top: -10px;
+}

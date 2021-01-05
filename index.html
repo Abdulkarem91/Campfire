@@ -17,24 +17,16 @@
 </head>
 <body>
 
- 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="images/logo.svg" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Our Services</a>
-            <a class="nav-link" href="#">Portfolio</a>
-            <a class="nav-link" href="#">Portfolio</a>
-            <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
-          </div>
-        </div>
-      </div>
-    </nav>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active"><img src="images/logo.svg" alt="logo"></a>
+    <a href="index.html">Home</a>
+    <a href="#Services">Our Services</a>
+    <a href="#Portfolio">Portfolio</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
     
     <div class="jumbotron">
       <h1 class="display-4">We Build Beautiful Websites<br>That Generate Leads</h1>
@@ -47,7 +39,7 @@
 <section class="text-center my-5">
 
   <!-- Section heading -->
-  <h2 class="h1-responsive font-weight-bold my-5">Our Services</h2>
+  <h2 class="h1-responsive font-weight-bold my-5" id="Services">Our Services</h2>
   <!-- Section description -->
   
   <!-- Grid row -->
@@ -94,7 +86,7 @@
 <!-- Section: our services v.1 -->
 
 <!-- this is the portfolio section -->
-<h1 class="Portfolio">Our Portfolio</h1>
+<h1 class="Portfolio" id="Portfolio">Our Portfolio</h1>
 <div class="card-group">
   <div class="card">
     <img src="images/image-confetti.jpg" class="card-img-top" alt="...">
@@ -138,16 +130,13 @@
 
         <ul class="list-unstyled mb-0">
           <li>
-            <a href="#!" class="text-white">Home</a>
+            <a href="index.html" class="text-white">Home</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Our Services</a>
+            <a href="#Services" class="text-white">Our Services</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Our Portfolio</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Link 4</a>
+            <a href="#Portfolio" class="text-white">Our Portfolio</a>
           </li>
         </ul>
       </div>
@@ -159,16 +148,13 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!" class="text-white">Link 1</a>
+            <a href="#!" class="text-white"><i class="fab fa-instagram fa-2x"></i></a>
           </li>
           <li>
-            <a href="#!" class="text-white">Link 2</a>
+            <a href="#!" class="text-white"><i class="fab fa-linkedin-in fa-2x"></i></a>
           </li>
           <li>
-            <a href="#!" class="text-white">Link 3</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Link 4</a>
+            <a href="#!" class="text-white"><i class="fab fa-twitter fa-2x"></i></a>
           </li>
         </ul>
       </div>
@@ -185,6 +171,8 @@
   </div>
   <!-- Copyright -->
 </footer>
+
+
 <!-- 
   About Us
   Contact
@@ -194,6 +182,7 @@
   Privacy Policy
 
   Request Invite -->
-
+<script src="navbar.js"></script>
 </body>
 </html>
+

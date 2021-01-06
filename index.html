@@ -22,6 +22,7 @@
     <a href="index.html">Home</a>
     <a href="#Services">Our Services</a>
     <a href="#Portfolio">Portfolio</a>
+    <a href="#contact">Contact us</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
@@ -31,7 +32,7 @@
     <div class="jumbotron">
       <h1 class="display-4">We Build Beautiful Websites<br>That Generate Leads</h1>
       <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Schedule A Call</a>
+        <a class="btn btn-primary btn-lg" href="#contact-us" role="button">Contact Us</a>
       </p>
     </div>
 
@@ -111,6 +112,37 @@
   </div>
 </div>
 
+<!-- this is the form -->
+<h1 class="text" id="contact">Contact us</h1>
+<div class="contact d-flex justify-content-center">
+  
+  <form action="https://formspree.io/f/mknpknee"
+  method="POST">
+    <div class="form-group">
+      <label for="exampleFormControlInput1"></label>
+      <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email" required>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlInput1"></label>
+      <input type="text" name="first name" class="form-control" placeholder="First name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="exampleFormControlInput1"></label>
+      <input type="text" name="last name" class="form-control" placeholder="last name" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1"></label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" name="Message" rows="3" placeholder="What can we help you with ?"></textarea>
+    </div>
+    <div class="text-center">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+    
+  </form>
+</div>
+
   <!-- this is the footer -->
 <footer class="text-white text-center text-lg-start" style="background-color: #4a507c;" >
   <!-- Grid container -->
@@ -144,7 +176,7 @@
 
       <!--Grid column-->
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase mb-0">Social Media</h5>
+        <h5 class="text-uppercase mb-0">Follow us</h5>
 
         <ul class="list-unstyled">
           <li>
@@ -173,16 +205,6 @@
 </footer>
 
 
-<!-- 
-  About Us
-  Contact
-  Blog
-  Careers
-  Support
-  Privacy Policy
-
-  Request Invite -->
 <script src="navbar.js"></script>
 </body>
 </html>
-
